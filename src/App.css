@@ -1,0 +1,118 @@
+                                              /* HEADER */
+header {
+  position: relative; /* Permet aux images en position absolue de se référer au header */
+  background: url('./assets/headerbackgroundNoMontagne.png') no-repeat center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  overflow: hidden;
+}
+.montagneGauche,
+.montagneDroite, 
+.nuages {
+  position: absolute;
+  bottom: 0;
+  /* width: auto; */
+  max-height: 100%;
+}
+.montagneGauche {
+  left: -17vw;
+  z-index: 2;
+  width: 70%;
+}
+.nuages{
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+}
+.montagneDroite {
+  width: 70%;
+  right: 0;
+  bottom: -15vh;
+  z-index: 1;
+}
+.titleWrapper{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 24vh;
+  margin-left: 12vw;
+}
+.h1title{
+  font-size: 5rem;
+  margin: 0;
+  margin-bottom: 1vh;
+}
+.underTitle{
+  font-size: 2rem;
+  margin: 0;
+  color: #898989;
+  margin-bottom: 3vh;
+}
+.underlineP{
+  font-size: 1.8rem;
+  border-bottom: 5px solid black;
+  margin: 0;
+  display: inline;
+}
+                                                /* HEADER */
+.about{
+  background: url(./assets/about.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.montagneDroiteAbout,
+.montagneBottom{
+  position: absolute;
+  bottom: 0;
+  width: auto;
+  max-height: 100%;
+}
+.montagneDroiteAbout{
+  right: 0;
+  height: 90%;
+}
+.montagneBottom{
+  width: 100vw;
+  bottom: -13vh;
+}
+.titleWrapperAbout{
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-top: 11vh;
+  margin-left: 12vw;
+}
+.h2Title{
+  margin: 0;
+  font-size: 3.6rem;
+  display: inline;
+}
+.underline{
+  border-bottom: 10px solid black;
+}
+.infoP{
+  display: flex;
+  gap: 20px;
+  margin-top: 6vh;
+}
+.aboutP {
+  display: flex;
+  align-items: center; /* Centers icon and text vertically */
+  gap: 8px; /* Adds spacing between the icon and text */
+  font-size: 1.3rem;
+}
+.aboutTxt{
+  max-width: 44vw;
+  font-size: 1.6rem;
+  margin-top: 4vh;
+}
+                                                /* HEADER */
+.sevices{
+  background-color: black;
+  height: 100vh;
+}
