@@ -145,17 +145,25 @@ function App() {
       </section>
 
       <footer className="footer">
-      <div className="footer-content">
-          <img src={logoFooter} alt="High Peaks Logo" />
-        <nav className="footer-nav">
-          <a href="#home">HOME</a>
-          <a href="#about">ABOUT</a>
-          <a href="#services">SERVICES</a>
-          <a href="#book">BOOK NOW</a>
-        </nav>
-      </div>
-      <hr className="footer-line" />
-    </footer>
+        <div className="footer-content">
+          <div className="footer-logo">
+            <img src={logo} alt="High Peaks Logo" />
+            <p className="footer-text">SPORTS AND NATURE</p>
+          </div>
+          <nav className="footer-nav">
+            <ul>
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#about">ABOUT</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#book">BOOK NOW</a></li>
+            </ul>
+          </nav>
+        </div>
+        <hr className="footer-line" />
+      </footer>
+
+
+
     </div>
   )
 }
