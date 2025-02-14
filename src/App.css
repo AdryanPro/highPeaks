@@ -1,3 +1,6 @@
+.mainWrapper{
+  overflow: hidden;
+}    
                                               /* NAV BAR */
 nav {
   display: flex;
@@ -78,7 +81,7 @@ header {
 .montagneGauche {
   left: -17vw;
   z-index: 2;
-  width: 70%;
+  width: 80%;
 }
 .nuages{
   left: 0;
@@ -88,7 +91,7 @@ header {
 .montagneDroite {
   width: 70%;
   right: 0;
-  bottom: -15vh;
+  bottom: -9vh;
   z-index: 1;
 }
 .titleWrapper{
@@ -120,7 +123,7 @@ header {
   background: url(./assets/about.png);
   background-size: cover;
   background-attachment: fixed;
-  height: 100vh;
+  height: 120vh;
   position: relative;
   overflow: hidden;
 }
@@ -137,7 +140,7 @@ header {
 }
 .montagneBottom{
   width: 100vw;
-  bottom: -13vh;
+  bottom: 0;
 }
 .titleWrapperAbout{
   display: flex;
